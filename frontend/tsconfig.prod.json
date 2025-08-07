@@ -1,0 +1,30 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "noEmit": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/test/**/*",
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "**/*.test.*",
+    "**/*.spec.*",
+    "src/components/DebugDashboard.tsx",
+    "src/components/TestProcessing.tsx",
+    "src/components/SimpleDocumentProcessor.tsx",
+    "src/lib/aiService.ts",
+    "src/lib/documentProcessorEnhanced.ts"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "api/**/*.ts",
+    "!src/test/**/*",
+    "!**/*.test.*"
+  ]
+}

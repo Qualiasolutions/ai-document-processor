@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window"],
+    "strict": true
+  },
+  "fmt": {
+    "files": {
+      "include": ["**/*.ts"]
+    }
+  },
+  "lint": {
+    "files": {
+      "include": ["**/*.ts"]
+    }
+  },
+  "imports": {
+    "https://deno.land/x/supabase_functions@v1.0.0/mod.ts": "https://deno.land/x/supabase_functions@v1.0.0/mod.ts"
+  }
+} 
