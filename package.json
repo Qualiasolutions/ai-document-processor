@@ -1,0 +1,19 @@
+{
+  "name": "ai-document-processor",
+  "version": "1.0.0",
+  "description": "AI-powered document processing with OpenAI GPT-4o integration",
+  "main": "frontend/src/main.tsx",
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "preview": "cd frontend && npm run preview",
+    "install-frontend": "cd frontend && npm install",
+    "test": "cd frontend && npm run test"
+  },
+  "keywords": ["ai", "document-processing", "openai", "react", "typescript"],
+  "author": "Qualia Solutions",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
